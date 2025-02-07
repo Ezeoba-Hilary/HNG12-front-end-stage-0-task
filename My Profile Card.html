@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Profile Card</title>
+        <link rel="stylesheet" href="My Profile Card.css" type="text/css">
+
+        <!--ICON LIBRARY-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+                <!--Profile picture-->
+            <div id="profile_pic" class="container-item">
+                <img data-testid="profilePicture" src="images/Hilary_Ezeoba.webp" alt="Ezeoba_Hilary"/>
+            </div>
+
+            <!--Full name-->
+            <div id="full_name" class="container-item">
+                <h1 data-testid="fullName">Ezeoba Hilary Ekenedilichukwu</h1>
+            </div>
+
+            <!--Job title-->
+            <div id="job_title" class="container-item">
+                <h2 data-testid="jobTitle">Front-End Web Developer</h2>
+            </div>
+
+            <!--Short bio-->
+            <div id="short_bio" class="container-item">
+                <p data-testid="shortBio">Hilary is a front-end developer intern at HNG. 
+                    He is passionate about creating user-friendly and visually appealing web experiences, 
+                    using HTML, CSS, and JavaScript. He is currently expanding his skills with frameworks like React.
+
+                    In his free time, he explores web design trends, listens to gospel music and plays video games.</p>
+            </div>
+
+            <!--Current location-->
+            <div id="current_location" class="container-item">
+                <p class="first">Current Location: </p>
+                <p data-testid="currentLocation" id="location"></p> <!--My script-->
+            </div>
+
+            <!--Email address-->
+            <div id="email_address" class="container-item">
+                <p data-testid="emailAddress"><strong>Email: </strong><i>ezeobahilary@gmail.com</i></p>
+            </div>
+
+            <!--Social links-->
+            <div id="social_links" class="container-item">
+                <a data-testid="socialLinks" href="#"><i class="fa fa-whatsapp"></i></a>
+                <a data-testid="socialLinks" href="#"><i class="fa fa-linkedin"></i></a>
+                <a data-testid="socialLinks" href="#"><i class="fa fa-facebook"></i></a>
+                <a data-testid="socialLinks" href="https://x.com/Ekene_Hilary?t=Th1mKuDdO14RVMyjYX0ksg&s=09
+                "><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <!--Current time-->
+            <div id="current_time_in_UTC" class="container-item">
+                <p data-testid="currentTimeUTC" id="currentTime"></p>
+            </div>
+        </div>
+    </body>
+</html>
